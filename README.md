@@ -1,3 +1,3 @@
-# React + TypeScript + Vite + Tailwind + Netlifyy
+# React + TypeScript + Vite + Tailwind + Netlify
 
 Developr Portfolio 
