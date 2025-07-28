@@ -5,10 +5,12 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center">
           {/* Content */}
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <h1 className="text-5xl font-bold mb-6">Hey, I'm Thomas McMahon</h1>
-            <p className="text-xl mb-8">
-              Fullstack developer with expertise in JavaScript, React, Python, and SQL, leveraging a background in business analytics to build efficient, data-driven solutions. Passionate about problem-solving, clean code, and optimizing database performance.
-            </p>
+            <p>
+                I'm <span className="inline-block text-2xl">Thomas McMahon</span>, a <span className=" text-2xl">Fullstack Developer</span> based in Nashville.
+              </p>
+              <p>
+                A full-stack developer with expertise in JavaScript, React, Python, and SQL, leveraging a background in business analytics to build efficient, data-driven solutions. Passionate about problem-solving, clean code, and optimizing database performance.
+              </p>
             <a 
               href="#projects" 
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
