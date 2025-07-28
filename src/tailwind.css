@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+        @apply text-3xl font-semibold text-gray-800;
+      }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding: inline: 1.5rem;
+}
+

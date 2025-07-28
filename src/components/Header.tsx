@@ -8,7 +8,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center pr-4">
             <div className="w-12 h-12 rounded-full overflow-hidden mr-3">
               <img 
                 src="/assets/png/john-doe.png" 
