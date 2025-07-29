@@ -18,7 +18,7 @@ export default function Projects() {
     },
     {
       title: "Solar System",
-      description: "Basic front animation practice where I relearned some trig for the orbits.",
+      description: "Basic front end animation practice where I relearned some trig for the orbits.",
       link: "https://github.com/glassoctopus/solarSystem"
     }
   ]

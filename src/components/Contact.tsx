@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-primary text-white">
+    <section className="py-20 bg-primary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
@@ -16,7 +16,7 @@ export default function Contact() {
               <input
                 type="text"
                 id="name"
-                className="w-full px-4 py-3 rounded-md bg-primary-dark border border-primary-light focus:outline-none focus:ring-2 focus:ring-white"
+                className="w-full px-4 py-3 rounded-md border border-primary-light focus:outline-none focus:ring-2 focus:ring-white"
                 placeholder="Your Name"
               />
             </div>
@@ -25,7 +25,7 @@ export default function Contact() {
               <input
                 type="email"
                 id="email"
-                className="w-full px-4 py-3 rounded-md bg-primary-dark border border-primary-light focus:outline-none focus:ring-2 focus:ring-white"
+                className="w-full px-4 py-3 rounded-md border border-primary-light focus:outline-none focus:ring-2 focus:ring-white"
                 placeholder="Your Email"
               />
             </div>
@@ -35,7 +35,7 @@ export default function Contact() {
             <textarea
               id="message"
               rows={6}
-              className="w-full px-4 py-3 rounded-md bg-primary-dark border border-primary-light focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-full px-4 py-3 rounded-md border border-primary-light focus:outline-none focus:ring-2 focus:ring-white"
               placeholder="Your Message"
             ></textarea>
           </div>

@@ -8,15 +8,15 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-<div className="font-sans min-h-screen bg-gradient-to-br from-emerald-100 to-stone-700 text-gray-900">
-  <div className="container p-12 m-12">
-          <Header />
-          <Hero />
-          <About />
-          <Projects />
-          {/* <Contact /> */}
-          <Footer />
-        </div>
+    <div className="font-sans text-white text-shadow-md/100 min-h-screen bg-gradient-to-br from-emerald-100 to-stone-700 flex flex-col items-center">
+      <div className="w-full max-w-screen-lg mx-auto px-6 py-12 space-y-12 border border-blue-500">
+        <Header />
+        <Hero />
+        <About />
+        <Projects />
+        {/* <Contact /> */}
+        <Footer />
       </div>
-  )
+    </div>
+  );
 }
