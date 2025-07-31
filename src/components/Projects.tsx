@@ -24,7 +24,7 @@ export default function Projects() {
   ]
 
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="flex justify-center-safe gap-12 py-20">
       {/* ... existing header code ... */}
       
       <div className="space-y-16">
