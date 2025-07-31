@@ -4,11 +4,11 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
-      <div className="max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center">
+    <header className="fixed top-0 left-0 w-full bg-gradient-to-br from-stone-700 to-emerald-100 z-50">
+      <div className="max-w-screen-xl mx-auto px-4 h-24 flex justify-between items-center">
         {/* Logo */}
         <div className="w-4" />{/*invisible div to push the logo and name right... bad work around... but here we are */}
-        <div className="flex items-right">
+        <div className="flex items-end pt-3">
           <div className="w-12 h-12 rounded-full overflow-hidden mr-3">
             <img 
               src="/assets/png/john-doe.png" 
@@ -16,7 +16,7 @@ export default function Header() {
               className="w-full h-full object-cover"
             />
           </div>
-          <span className="text-lg font-semibold">Thomas McMahon</span>
+          <span className="text-3xl font-normal p-3 m-3">Thomas McMahon</span>
         </div>
 
         {/* Desktop Navigation */}

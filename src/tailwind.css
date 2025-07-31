@@ -12,8 +12,9 @@
       }
 }
 
-@utility container {
-  margin-inline: auto;
-  padding: inline: 1.5rem;
+@layer utilities {
+  .text-shadow-white {
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 1);
+  }
 }
 
